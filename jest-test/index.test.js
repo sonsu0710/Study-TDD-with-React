@@ -1,4 +1,4 @@
-const {sum, person, toggle} = require('./index');
+const {sum, person, toggle, range} = require('./index');
 
 describe('test index.js file', () => {
 
@@ -19,8 +19,14 @@ describe('test index.js file', () => {
     });
 
     // toBeFalsy, toBeTruthy 사용
-    it('returns false', function () {
+    it('returns false', () => {
         expect(toggle(true)).toBeFalsy();
         expect(toggle(true)).not.toBeTruthy();
+    });
+
+    // toContain 사용
+    // 배열에 특정 값이 포함되어 있는지 확인할 때 사용.
+    it('has 2',  () => {
+        expect(range(1,3)).toContain(2);
     });
 });
