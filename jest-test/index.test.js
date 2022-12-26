@@ -19,5 +19,8 @@ describe('test index.js file', () => {
     });
 
     // toBeFalsy, toBeTruthy 사용
-
+    it('returns false', function () {
+        expect(toggle(true)).toBeFalsy();
+        expect(toggle(true)).not.toBeTruthy();
+    });
 });
