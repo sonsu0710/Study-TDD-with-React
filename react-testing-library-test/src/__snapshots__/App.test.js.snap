@@ -16,7 +16,7 @@ exports[`<App /> renders component correctly 1`] = `
       <p>
         Edit 
         <code>
-          src/App.js
+          src/App.tsx
         </code>
          and save to reload.
       </p>

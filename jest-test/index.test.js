@@ -1,6 +1,6 @@
 const {sum, person, toggle, range} = require('./index');
 
-describe('test index.js file', () => {
+describe('test index.tsx file', () => {
 
     // Matcher 사용
     // Matcher 는 결과값을 비교하여 테스트의 성공 여부를 파악.
