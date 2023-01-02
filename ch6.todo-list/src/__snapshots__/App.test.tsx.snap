@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders component correctly 1`] = `
+<div>
+  <div
+    class="sc-jSUZER hDjjto"
+  >
+    <div
+      class="sc-gKPRtg YXBjW"
+    >
+      <div
+        class="sc-ftTHYK kIJXjd"
+        data-testid="toDoList"
+      />
+      <div
+        class="sc-iBYQkv kwraTM"
+      >
+        <input
+          class="sc-dkrFOg brTmZq"
+          placeholder="할 일을 입력해 주세요"
+          value=""
+        />
+        <div
+          class="sc-bcXHqe gMscPQ"
+        >
+          <div
+            class="sc-gswNZR kXopKD"
+          >
+            추가
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
